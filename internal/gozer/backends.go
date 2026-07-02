@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/eilandert/gazor/razor"
-	"github.com/eilandert/gdcc/dcc"
-	"github.com/eilandert/gyzor/pyzor"
+	"github.com/myguard-labs/gazor/razor"
+	"github.com/myguard-labs/gdcc/dcc"
+	"github.com/myguard-labs/gyzor/pyzor"
 )
 
 // opCtx returns a context bounding one backend op by BackendTimeout, plus its

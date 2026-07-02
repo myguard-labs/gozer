@@ -34,9 +34,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eilandert/gazor/razor"
-	"github.com/eilandert/gdcc/dcc"
-	"github.com/eilandert/gozer/internal/gozer"
+	"github.com/myguard-labs/gazor/razor"
+	"github.com/myguard-labs/gdcc/dcc"
+	"github.com/myguard-labs/gozer/internal/gozer"
 )
 
 var version = "dev"

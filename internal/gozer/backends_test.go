@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eilandert/gdcc/dcc"
+	"github.com/myguard-labs/gdcc/dcc"
 )
 
 // DCC target sentinels (include/dcc_proto.h).

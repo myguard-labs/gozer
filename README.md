@@ -27,10 +27,10 @@ each wire-compatible with the original perl/python/C tool:
 
 | Repo | Role |
 |------|------|
-| [gdcc](https://github.com/eilandert/gdcc) | DCC client — library + CLI |
-| [gazor](https://github.com/eilandert/gazor) | Razor 2 client — library + CLI |
-| [gyzor](https://github.com/eilandert/gyzor) | Pyzor client — library + CLI |
-| [gozer](https://github.com/eilandert/gozer) | backend binary — links all three in-process behind one HTTP endpoint |
+| [gdcc](https://github.com/myguard-labs/gdcc) | DCC client — library + CLI |
+| [gazor](https://github.com/myguard-labs/gazor) | Razor 2 client — library + CLI |
+| [gyzor](https://github.com/myguard-labs/gyzor) | Pyzor client — library + CLI |
+| [gozer](https://github.com/myguard-labs/gozer) | backend binary — links all three in-process behind one HTTP endpoint |
 | [rspamd-dcc-razor-pyzor](https://github.com/eilandert/rspamd-dcc-razor-pyzor) | Docker deployment — gozer image + rspamd plugin + dovecot sieve |
 
 gozer is the orchestrator: it links the three clients in-process (no `dccifd`

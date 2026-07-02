@@ -1,15 +1,15 @@
 # github.com/cespare/xxhash/v2 v2.3.0
 ## explicit; go 1.11
 github.com/cespare/xxhash/v2
-# github.com/eilandert/gazor v1.1.0
+# github.com/myguard-labs/gazor v1.1.0
 ## explicit; go 1.24
-github.com/eilandert/gazor/razor
-# github.com/eilandert/gdcc v1.1.0
+github.com/myguard-labs/gazor/razor
+# github.com/myguard-labs/gdcc v1.1.0
 ## explicit; go 1.23
-github.com/eilandert/gdcc/dcc
-# github.com/eilandert/gyzor v1.1.0
+github.com/myguard-labs/gdcc/dcc
+# github.com/myguard-labs/gyzor v1.1.0
 ## explicit; go 1.24
-github.com/eilandert/gyzor/pyzor
+github.com/myguard-labs/gyzor/pyzor
 # github.com/redis/go-redis/v9 v9.20.1
 ## explicit; go 1.24
 github.com/redis/go-redis/v9

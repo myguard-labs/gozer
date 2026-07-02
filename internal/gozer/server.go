@@ -129,7 +129,7 @@ func (s *Server) logStartup(addr string) {
 }
 
 // RepoURL is the project's source, logged at startup when log-stdout is on.
-const RepoURL = "https://github.com/eilandert/gozer"
+const RepoURL = "https://github.com/myguard-labs/gozer"
 
 func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	switch {

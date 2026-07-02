@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/eilandert/gdcc/dcc"
-	"github.com/eilandert/gyzor/pyzor"
+	"github.com/myguard-labs/gdcc/dcc"
+	"github.com/myguard-labs/gyzor/pyzor"
 )
 
 // PyzorRegister generates (or persists a supplied) pyzor identity and writes it
