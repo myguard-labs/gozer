@@ -11,7 +11,7 @@ jobs:
   # unverified commit cannot publish binaries (ci runs only on branches / PRs,
   # not on tags). gozer is vendored, so every step builds with -mod=vendor.
   verify:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, builder02, lxc]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
@@ -38,7 +38,7 @@ jobs:
 
   goreleaser:
     needs: verify
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, builder02, lxc]
     permissions:
       contents: write
     steps:
