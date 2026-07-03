@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   go:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, builder02, lxc]
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-go@v5
@@ -35,7 +35,7 @@ jobs:
           go test -mod=vendor -run=x -fuzz='^FuzzParsePyzorServers$' -fuzztime=20s ./internal/gozer/
 
   lint:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, builder02, lxc]
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-go@v5
@@ -56,7 +56,7 @@ jobs:
           govulncheck ./...
 
   codeql:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, builder02, lxc]
     permissions:
       security-events: write
     steps:
